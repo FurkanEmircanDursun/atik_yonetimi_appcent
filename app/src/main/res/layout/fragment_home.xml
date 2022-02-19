@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/puanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:text="puan"
+        android:textColor="@color/black"
+        android:textSize="25dp"></TextView>
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="bottom"
+        app:srcCompat="@drawable/circleavatar" />
+
+    <TextView
+        android:id="@+id/eMailAnaSayfaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="E-mail"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/adSoyadAnaSayfaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Ad Soyad"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/adresAnaSayfaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Adres"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/cikis_Yap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:text="Çıkış Yap"
+        android:textColor="#FF0000"
+        android:textSize="25dp"></TextView>
+
+</LinearLayout>

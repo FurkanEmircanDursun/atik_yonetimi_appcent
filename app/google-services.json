@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770346582694",
+    "project_id": "atik-yonetimi-appcent",
+    "storage_bucket": "atik-yonetimi-appcent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770346582694:android:c1b0a5aac040eca459ea67",
+        "android_client_info": {
+          "package_name": "com.beran_setaou.atik_yonetimi_appcent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770346582694-mjr698iq592j4dqrnifh16m6h973tm6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMmygtZ04YjZFf5yjExROQecYHX44EAQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770346582694-mjr698iq592j4dqrnifh16m6h973tm6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
